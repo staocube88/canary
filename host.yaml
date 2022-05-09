@@ -1,0 +1,9 @@
+
+apiVersion: getambassador.io/v3alpha1
+kind: Host
+metadata:
+  name: emissary-host
+  labels:
+    component: web
+spec:
+  hostname: "testservice"

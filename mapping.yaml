@@ -1,0 +1,9 @@
+
+apiVersion: getambassador.io/v3alpha1
+kind:  Mapping
+metadata:
+  name:  test-mapping
+spec:
+  prefix: "/web/"
+  prefix_regex: true
+  service: http://testservice.com:8080
